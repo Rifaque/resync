@@ -1,0 +1,21 @@
+nohup: ignoring input
+2026-04-02 06:09:55,860 - __main__ - INFO - Download worker started
+/home/rifaque/resync/backend/workers/downloader.py:307: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  {"status": "queued", "progress": 0, "updated_at": datetime.utcnow()},
+2026-04-02 06:09:55,877 - __main__ - INFO - Processing download 1: https://www.youtube.com/watch?v=0UPDBODtxzw
+2026-04-02 06:09:55,894 - __main__ - INFO - Starting download: https://www.youtube.com/watch?v=0UPDBODtxzw
+[youtube] Extracting URL: https://www.youtube.com/watch?v=0UPDBODtxzw
+[youtube] 0UPDBODtxzw: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] 0UPDBODtxzw: Downloading android vr player API JSON
+[info] 0UPDBODtxzw: Downloading 1 format(s): 251
+[download] Destination: /home/rifaque/resync-storage/music/Tame Impala, JENNIE - Dracula (JENNIE Remix - Official Lyric Video).webm
+[download]   0.0% of    3.31MiB at  909.83KiB/s ETA 00:03/home/rifaque/resync/backend/workers/downloader.py:155: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  {"progress": progress, "updated_at": datetime.utcnow()},
+[download]   0.1% of    3.31MiB at  215.17KiB/s ETA 00:15[download]   0.2% of    3.31MiB at  350.46KiB/s ETA 00:09[download]   0.4% of    3.31MiB at  542.76KiB/s ETA 00:06[download]   0.9% of    3.31MiB at  895.66KiB/s ETA 00:03[download]   1.9% of    3.31MiB at    1.37MiB/s ETA 00:02[download]   3.7% of    3.31MiB at    2.05MiB/s ETA 00:01[download]   7.5% of    3.31MiB at    3.27MiB/s ETA 00:00[download]  15.1% of    3.31MiB at    4.93MiB/s ETA 00:00[download]  30.2% of    3.31MiB at    6.29MiB/s ETA 00:00[download]  60.4% of    3.31MiB at    9.09MiB/s ETA 00:00[download] 100.0% of    3.31MiB at   10.67MiB/s ETA 00:00[download] 100% of    3.31MiB in 00:00:00 at 8.48MiB/s   
+[ExtractAudio] Destination: /home/rifaque/resync-storage/music/Tame Impala, JENNIE - Dracula (JENNIE Remix - Official Lyric Video).m4a
+Deleting original file /home/rifaque/resync-storage/music/Tame Impala, JENNIE - Dracula (JENNIE Remix - Official Lyric Video).webm (pass -k to keep)
+2026-04-02 06:10:13,212 - __main__ - INFO - Download completed: /home/rifaque/resync-storage/music/Tame Impala, JENNIE - Dracula (JENNIE Remix - Official Lyric Video).m4a
+/home/rifaque/resync/backend/workers/downloader.py:205: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  job.downloaded_at = datetime.utcnow()
+2026-04-02 06:10:13,215 - __main__ - INFO - Download 1 completed successfully
